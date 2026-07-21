@@ -1,5 +1,5 @@
 # climate-energy-prediction-ml
-Comparing SVR and 1D CNN deep learning models to predict CO₂ emissions and temperature trends on an 18,720-row climate and energy dataset.
+Comparing SVR and 1D CNN deep learning models to predict CO₂ emissions and temperature — SVR performed strongly on temperature (R² = 0.95); CO₂ prediction remains an open challenge.
 # climate-energy-prediction-ml
 
 Predicting CO₂ emissions and average temperature trends from real-world climate and energy data, comparing a traditional machine learning approach (Support Vector Regression) against a deep learning approach (1D Convolutional Neural Network).
@@ -52,10 +52,13 @@ Temperature prediction was considerably more successful than CO₂ emissions pre
 - Matplotlib — visualisation
 
 ## Project Structure
+
+​```
 climate-energy-prediction-ml/
 ├── README.md
 ├── requirements.txt
 └── SVR_1D_CNN_Predictions.ipynb
+​```
 
 ## Setup
 
@@ -64,7 +67,8 @@ pip install -r requirements.txt
 ```
 
 Then open `SVR_1D_CNN_Predictions.ipynb` in Jupyter or your preferred notebook environment.
-the dataset isn't included in the repo.
+Note: the dataset (data/project_data_clean.csv) is not included in this repo due to file size 
+
 ## Author
 
 Gargi Adsul — MSc Artificial Intelligence, Brunel University of London
